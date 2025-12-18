@@ -60,7 +60,7 @@ class Settings(BaseSettings):
     MODEL_TIMEOUT: int = 30
     
     # Database (Optional - for persistent storage)
-    DATABASE_URL: str = ""
+    DATABASE_URL: str = "sqlite+aiosqlite:///./test.db"
     DB_POOL_SIZE: int = 10
     DB_MAX_OVERFLOW: int = 20
     
