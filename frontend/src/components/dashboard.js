@@ -410,6 +410,9 @@ const AIRedTeamDashboard = () => {
             </div>
           </div>
         )}
+        <footer className="mt-12 text-center text-slate-500 text-sm">
+          &copy; {new Date().getFullYear()} Team Inferno. All rights reserved.
+        </footer>
       </div>
     </div>
   );
